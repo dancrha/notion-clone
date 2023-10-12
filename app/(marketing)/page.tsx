@@ -1,3 +1,4 @@
+import { Footer } from "./_components/Footer";
 import { Header } from "./_components/Header";
 import { Heroes } from "./_components/Heroes";
 
@@ -8,6 +9,7 @@ const MarketingPage = () => {
         <Header />
         <Heroes />
       </div>
+      <Footer />
     </div>
   );
 };
