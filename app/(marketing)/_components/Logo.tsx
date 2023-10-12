@@ -10,7 +10,20 @@ const font = Poppins({
 const Logo = () => {
   return (
     <div className='hidden md:flex items-center'>
-      <Image src='/Logo.png' alt='Logo' height={80} width={80} />
+      <Image
+        src='/Logo.png'
+        alt='Logo'
+        height={80}
+        width={80}
+        className='dark:hidden'
+      />
+      <Image
+        src='/Logo-dark.png'
+        alt='Logo'
+        height={80}
+        width={80}
+        className='hidden dark:block'
+      />
     </div>
   );
 };
